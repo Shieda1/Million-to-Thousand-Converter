@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=.0">
+  <title>Million to Thousand Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="valueinthousandsRadio" name="variables" checked>
+  <label for="valueinthousandsRadio">Value in thousands</label>
+
+  <input type="radio" id="valueinmillionsRadio" name="variables">
+  <label for="valueinmillionsRadio">Value in millions</label>
+
+  <input type="radio" id="decimalnumberRadio" name="variables">
+  <label for="decimalnumberRadio">Decimal number</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v" id="variable">Value in millions</label>
+  <input type="number" id="v"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
